@@ -1,0 +1,70 @@
+
+#cutieme {
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px rgba(183, 170, 142, 0.337);
+}
+.hero{
+ max-width: 1700px;
+  
+}
+
+body{
+  background-color: #e4decc;
+}
+#invert{
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+.sneakyflower{
+  display: flex;
+  justify-content: space-evenly;
+}
+.goldflor1{
+  height: 20rem;
+  border-radius: 50%;
+  float: right;
+  
+}
+
+.goldflor2{
+  height: 20rem;
+  border-radius: 50%;
+  float: left;
+  
+}
+.notouch{
+  color: gray;
+  margin-top: 3rem;
+}
+.blurb2{
+  display: flex;
+  justify-content: center;
+  color: rgb(204, 170, 107);
+  font-size: large;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.hayley{
+  font-family: Baskerville;
+}
+

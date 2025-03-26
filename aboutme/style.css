@@ -1,0 +1,69 @@
+
+body{
+  background-image: url(./flowerborder.png);
+  position: right-top;
+  background-repeat: repeat-x;
+  background-size:auto;
+  background-color: #e3ddca;
+}
+.beginning{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.quantum{
+  position: absolute;
+  left: 50px;
+}
+.feedhim{
+  position: relative;
+}
+#cookie{
+  position: absolute;
+  z-index: 1;
+  left: 150px;
+  top: 220px;
+}
+.feedhim #cookie {
+  display: none;
+}
+.moveme{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  width: 400px;
+  height: 420px;
+background-color: #525942b2;
+}
+
+button{
+  margin-left: 115px;
+  margin-bottom: 2%;
+  width: 175px;
+  background-color: #A64646;
+}
+.yay{
+  display: none;
+}
+
+button:active ~ .yay {
+  display: block;
+  text-align: center;
+}
+
+button:active ~ .feedhim #cookie {
+  display:block;
+}
+.blurb{
+  display: flex;
+  justify-content: center;
+}
+.blurb2{
+  display: flex;
+  justify-content: center;
+  color: rgb(204, 170, 107);
+  font-size: large;
+}
