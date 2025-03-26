@@ -67,4 +67,9 @@ body{
 .hayley{
   font-family: Baskerville;
 }
+@media (max-width:480px){
+  img{
+    max-width: 480px;
+  }
+}
 
